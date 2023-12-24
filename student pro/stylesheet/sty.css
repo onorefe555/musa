@@ -1,0 +1,93 @@
+body{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+header img{
+    width: 20%;
+    margin: 1rem;
+}
+header{
+    background-image: url(office-95311_1280.jpg);
+    max-height: 400px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    background: rgba(238, 67, 5, 0.815);
+    margin: 2rem;
+    padding: 2px;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: rgba(19, 18, 18, 0.973);
+    font-size: 16x;
+  
+}
+#Sec-two h2{
+font-size: 35px;
+color: rgba(238, 67, 5, 0.815);
+}
+table{
+    width: 50%;
+}
+td{
+    padding: 0.7rem;
+    font-size: 16px;
+}
+th{
+    padding: 0.7rem;
+    font-size: 16px; 
+}
+#Sec-two button{
+    padding: 0.8rem;
+    width: 45%;
+    background:rgba(238, 67, 5, 0.815) ;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer{
+    background:rgba(238, 67, 5, 0.815); 
+    padding: 2px;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* working on the dashboard page */
+
+#dashboard h2{
+   color:rgba(238, 67, 5, 0.815); 
+   font-size: 35PX; 
+}
+#dashboard p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 8px;
+}
+#dashboard .sucessful{
+    font-size: 16px;
+    color: rgb(7, 116, 7);
+    font-style: italic;
+}
+.current{
+    color: chartreuse;
+    font-size: 16px;
+}

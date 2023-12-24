@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+    <link rel="stylesheet" href="../stylesheet/sty.css">
+    <link rel="stylesheet" href="../stylesheet/dash.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img id="img_slide" src="../img/architecture-1448221_1280.jpg" alt="">
+        </div>
+
+        <div class="link">
+            <a href="dash.html" class="current">Dash Board</a>
+            <a href="#">Change Password</a>
+            <a href="list.html">Applied for Hostel</a>
+            <a href="pay.html">Payment Status</a>
+            <a href="../log.html">Logout</a>
+        </div> 
+    </header>
+   <section id="dashboard">
+    <h2 class="header">Admin Dashboard</h2>
+    <h2>Welcome Username!</h2>
+    <p>Welcome to the Commercial Hostel Management System</p>
+    <p class="sucessful">Login Sucessfully......</p>
+   </section>
+    <section id="dash-section">
+        <div class="container">
+             <div class="details">
+                <div class="personal_info">
+                    <img  src="../img/man-1770388_1280.jpg" alt="">
+                    <h3>Full Name: Jatto Mussa</h3>
+                     <P><span class="profile">Username</span>: JettoMusssa@456 <br>
+                        <span class="profile">Phone No:</span> +234 8081845664 <br> <span class="profile"">Sex</span>: Male <br>
+                         <span class="profile">Email Address</span>: Jattomussa@gmail.com <br>
+                         <span class="profile">Address</span>:38/40 McCarthy, Off Obalande Road 
+                    </P>
+                </div>
+                <div class="info_back">
+                     <h4>Get <span>45%</span> Off </h4>
+                     <p>Special Price for you. <br> Hotel discount up to 45%</p>
+                </div>
+                <h4>Logout </h4>
+             </div>
+
+             <div class="logdge_house">
+                     <h2>Find list of available hotel to stay</h2>
+                     <div class="container-house">
+                        <div>
+                              <img id="Shikara_hostel" src="../room/room1.jpg" alt="">
+                              <p>Shikara Hotel</p>
+                              <h4>$42.3</h4>
+                              <button ondblclick="shakira_images_previous()" id="Previous">Previous</button> <button onclick="shakira_images_next()" id="next" >Next</button>
+                        </div>
+                        <div>
+                              <img id="visala_images" src="../room/room4.jpg" alt="">
+                               <p>Visala Hotel</p>
+                               <h4>$38.3</h4>
+                               <button onclick="visala_images_previous()" >Previous</button> <button onclick="visala_images_next()">Next</button>
+                         </div>
+                       <div>
+                          <img src="../room/room6.jpg" alt="">
+                          <p>Leganu Hotel</p>
+                          <h4>$45.3</h4>
+                          <button>Previous</button> <button>Next</button>
+                     </div>
+                </div>
+
+                    <div class="container-house">
+                        <div>
+                            <img id="shikara_images" src="../room/room6.jpg" alt="">
+                            <p>Shikara Hostel</p>
+                            <h4>$42.3</h4>
+                            <button onclick="ShikaraPrevious()">Previous</button> <button onclick="ShikaraNext()">Next</button>
+                        </div>
+                        <div>
+                            <img src="../room/room9.jpg" alt="">
+                            <p>Hogi Hostel</p>
+                            <h4>$40.3</h4>
+                            <button>Previous</button> <button>Next</button>
+                        </div>
+                    <div>
+                        <img id="hotel_slideshow" src="../room/room11.jpg" alt="">
+                        <p>Top most hostel</p>
+                        <h4>$63.5</h4>
+
+                    </div>
+                </div>
+                 
+
+             </div>
+        </div>
+    </section>
+   <footer>
+    <p>Commercial Hostel Management System &copy; 2023 build by Moses.o</p>
+   </footer>
+   <script src="../script/script.js"></script>
+</body>
+</html>
